@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2? family= Playfair+Display:wght@400;500;600;700;800;900 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.contenido {
+    display: inline-flex;
+}
+
+.banner{
+    display: inline-flex;
+    width: 100%;
+    height: 200px;  
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: gray;
+    background-size: cover; 
+    background-position: center;
+}
+
+.banner h2 {
+    padding: 5px;
+}
+
+.banner img {
+    width: 13%;
+}
+
+.slide {
+    width: 40%;
+    text-align: justify;
+    background-size: cover; 
+    background-position: center;
+    padding: 15px;
+}
+.slide h2 {
+    display: block;
+    padding-top: 20px;
+}
+.slider {
+    width: 51.3%;
+}
+ 
+.acerca {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+.experiencia {
+    background-color: gainsboro;
+    width: 115%;
+}
